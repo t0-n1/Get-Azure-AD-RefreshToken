@@ -10,7 +10,7 @@ PS > dsregcmd.exe /status | select-string 'AzureAdPrt :'
 ```
 3. Get a refresh token.
 ```
-PS > .\Get-Azure-AD-RefreshToken.ps1 $nonce
+PS > .\Get-Azure-AD-RefreshToken.ps1
 ```
 4. Open a browser, go to 'https://login.microsoftonline.com/login.srf' and clean all cookies.
 5. Set a new cookie:
